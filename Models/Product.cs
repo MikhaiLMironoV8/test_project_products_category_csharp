@@ -1,0 +1,8 @@
+﻿namespace test_project_products_category_csharp.Models
+{
+    public class Product
+    {
+        public string ProductName;
+        public string CategoryName;
+    }
+}

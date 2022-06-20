@@ -1,0 +1,32 @@
+﻿@model List<test_project_products_category_csharp.Models.Product>
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Главная</title>
+        <link type="text/css" rel="stylesheet" href="~/PageStyles/Index.css" />
+    </head>
+    <body>
+        <h1>
+            Главная страница с продуктами и категориями
+        </h1>
+        <h2>
+            Продукт - Категория
+        </h2>
+        <ul>
+            @foreach(var ProductInfo in Model)
+            {
+                <li>@ProductInfo.ProductName - @ProductInfo.CategoryName</li>
+            }
+        </ul>
+        <h2>
+            Используемые категории
+        </h2>
+        <ul>
+            @foreach(var CategoryInfo in ViewBag.CategoryUsing)
+            {
+                <li>@CategoryInfo.CategoryName</li>
+            }
+        </ul>
+    </body>
+</html>

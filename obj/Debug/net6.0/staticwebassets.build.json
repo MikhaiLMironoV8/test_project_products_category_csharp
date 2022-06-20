@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "E0C1ENdXuEXGgvHeKtVEYuX6seEesfP0ZusM6bjNCV8=",
+  "Source": "test_project_products_category_csharp",
+  "BasePath": "_content/test_project_products_category_csharp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "test_project_products_category_csharp\\wwwroot",
+      "Source": "test_project_products_category_csharp",
+      "ContentRoot": "C:\\Users\\mikha\\Desktop\\test_project_products_category_csharp\\wwwroot\\",
+      "BasePath": "_content/test_project_products_category_csharp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mikha\\Desktop\\test_project_products_category_csharp\\wwwroot\\PageStyles\\Index.css",
+      "SourceId": "test_project_products_category_csharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mikha\\Desktop\\test_project_products_category_csharp\\wwwroot\\",
+      "BasePath": "_content/test_project_products_category_csharp",
+      "RelativePath": "PageStyles/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\PageStyles\\Index.css"
+    }
+  ]
+}
